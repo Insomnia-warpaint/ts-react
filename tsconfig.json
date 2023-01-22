@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "strict": false,
+    "sourceMap": false,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "lib": ["dom"],
+    "outDir": "dist",
+    "baseUrl": "./"
+  },
+  "include": [ "src/**/*", "public/*", "templates/*"],
+  "exclude": [ "node_modules/*", "dist/*"]
+}
